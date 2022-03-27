@@ -1,0 +1,11 @@
+[package]
+name = "bevy_tokio_example_server"
+version = "0.0.1"
+edition = "2021"
+rust-version = "1.60.0"
+
+[dependencies]
+bevy_tokio_example_core = { path = "../bevy_tokio_example_core", version = "0.0.1" }
+tokio = { version = "1.12.0", features = ["full"] }
+serde = "1.0.130"
+serde_json = "1.0.68"

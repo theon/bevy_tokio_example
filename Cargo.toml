@@ -1,0 +1,6 @@
+[workspace]
+members = ["bevy_tokio_example_core", "bevy_tokio_example_client", "bevy_tokio_example_server"]
+resolver = "2"
+
+[profile.dev.package."*"]
+opt-level = 3
